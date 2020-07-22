@@ -1,0 +1,19 @@
+1:Sum of n numbers with help of while loop 
+Answer: n=10
+        Sum= 0
+        i=1
+        While i<=n:
+            Sum=sum +i
+              i= i+1
+        Print (" the sum is ", sum)
+2: take a integer and find whether the given number is prime or not
+Answer: num= int ( input (" please enter any num:")
+        Flag= 0
+        For i in range (2( num//2+1))
+          if( num % i == 0):
+             Flag= flag+1
+               Break
+      if( flag==0 and num!=1):
+           Print("%d is a prime number" % num)
+      Else:
+           Print(" %d is not a prime number"% num)
