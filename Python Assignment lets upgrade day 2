@@ -14,6 +14,8 @@ Answer: num= int ( input (" please enter any num:")
              Flag= flag+1
                Break
       if( flag==0 and num!=1):
-           Print("%d is a prime number" % num)
+           Print("%d is a prime number", % num)
       Else:
-           Print(" %d is not a prime number"% num)
+           Print(" %d is not a prime number",% num)
+
+
