@@ -1,0 +1,19 @@
+1) find all occurrence of substring in the given string
+  " What we think we become; we are python programmer"
+  Str1. Count (" we")
+  Output --> 3
+  Str1. Find ("we")
+  Output-->  20
+
+2) to convert upper case string to lower and lower to upper 
+Take any string.
+ 
+   Str2=" Karthik"
+   Print( str2)
+Output--> 'karthik'
+
+   >>> Str2. Lower ( str2)
+Output-->' Karthik'
+
+   >>> Str2. Upper ( str2)
+Output-->'KARTHIK'
