@@ -1,0 +1,15 @@
+1) [0,1,2,10,4,1,0,56,2,0,1,3,0,6,6,4]
+Sort increasing order but zero's should be right hand side
+ Program: list1=[ 0,1,2,10,4,0,56,2,0,1,3,0,56,0,4]
+          list1.Sort( reverse=1)
+          Print( list1)
+Output :-. 56,56,10,4,4,3,2,2,1,1,1,0,0,0,0,0
+2) list1=[10,20,40,60,70,80] sorted list; 
+   list2=[ 5,15,25,35,45,60] sorted list merge these two sorted list produced one sorted list
+Program:- list1=[ 10,20,40,60,70,80]
+          list2=[ 5,15,25,35,45,60]
+          Res= list1+ list2
+          For each in range (5,80):
+          If each in res:
+          Print (each)
+Output:- 5,10,15,20,25,35,40,45,60,70,80
