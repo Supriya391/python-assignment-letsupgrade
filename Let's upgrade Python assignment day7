@@ -1,0 +1,25 @@
+1)To create a new dictionary in which keys becomes
+Values and values become keys
+dic1={21:"ftp",22:"ssh",23:"talnet",80:" http",} 
+dic2={value: key for value, key Value in dic1.items()}
+Print(" the output:",dict2)
+The output:{'ftp':21,'ssh':22,'talbet':23,'http':80}
+ In(39)
+2) make a new list which contains the sum of tuple
+
+ List1=[(1,2)(3,4)(5,6)(4,5)]
+ List2=[]
+ For each in range (0,Len(list1)):
+ a,b=list1[each]
+ List2. Append(a+ b)
+ Print(" list contains sum of tuple:[3,7,11,9]
+ In(40)
+
+ 3)to make the elements in the inner list and 
+Tuple to the outer list
+ Ans: list1=(1,2,3),[1,2],['a',' hit',' less']]
+ list2=[]
+ list2 =(i for each in list1 For in i each]
+ Print (" the required output:" list2)
+
+ The required output [ 1,2,3,1,2'a','hit','less']
